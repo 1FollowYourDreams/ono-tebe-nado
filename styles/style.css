@@ -1,4 +1,4 @@
-header {
+.header {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -48,7 +48,7 @@ header {
   justify-content: center;
   flex-direction: column;
   text-align: left;
-  font-family: Raleway;
+  font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -69,7 +69,7 @@ header {
   color: #fff;
   width: 100%;
   z-index: 1;
-  padding: 170px 50px 0 50px;
+  padding: 165px 50px 0 50px;
 }
 
 .overlay {
@@ -84,10 +84,10 @@ header {
 .cover__title {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   font-size: 100px;
   font-weight: 700;
-  letter-spacing: 0.3em;
+  letter-spacing: 30px;
   text-transform: uppercase;
   display: flex;
   flex-wrap: column;
@@ -98,7 +98,7 @@ header {
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em;
+  letter-spacing: 60px;
 }
 
 .aligned-text_center {
@@ -117,9 +117,9 @@ header {
 
 .cover__description {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
-  padding: 136px 0 50px 372px;
+  padding: 135px 0 50px 372px;
 }
 
 .cover__description-text {
@@ -130,9 +130,9 @@ header {
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  text-align: end;
+
   word-spacing: 17px;
-  margin-right: 78px;
+ 
 }
 
 .bet-button {
@@ -148,8 +148,8 @@ header {
   border-radius: 0;
   border: 1px solid #fff;
   cursor: pointer;
-  width: 257px;
-  height: 52px;
+  min-width: 257px;
+  min-height: 52px;
 }
 
 .lots {
