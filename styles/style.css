@@ -60,7 +60,7 @@
 
 .cover {
   width: 1440px;
-  min-height: 757px;
+  height: 757px;
   position: relative;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
   font-size: 100px;
   font-weight: 700;
   letter-spacing: 30px;
@@ -119,7 +119,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 135px 0 50px 372px;
+  padding: 125px 0 50px 372px;
 }
 
 .cover__description-text {
@@ -130,7 +130,6 @@
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-
   word-spacing: 17px;
  
 }
